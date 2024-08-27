@@ -1,0 +1,13 @@
+<?php
+
+$data = "Eko Kurrniawan";
+
+var_dump(is_string($data)); //true
+var_dump(is_bool($data)); //false
+var_dump(is_int($data)); //false
+var_dump(is_float($data)); //false
+var_dump(is_array($data)); //false
+var_dump(is_null($data)); //false
+
+$data2 = 10.0;
+var_dump(is_float($data2)); // true
