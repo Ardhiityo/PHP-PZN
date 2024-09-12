@@ -1,0 +1,18 @@
+{
+  "name": "pzn/belajar-membuat-library",
+  "description": "belajar membuat library",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Pzn\\BelajarMembuatLibrary\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Arya"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}

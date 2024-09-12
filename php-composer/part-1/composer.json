@@ -1,0 +1,29 @@
+{
+  "name": "pzn/composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Pzn\\Composer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "belajar-composer",
+      "email": "aryaadi229@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Ardhiityo/my-library-composer.git"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "3.7.0",
+    "pzn/belajar-membuat-library": "2.0.0"
+  },
+  "scripts": {
+    "jalankan-server": "php -S localhost:8080",
+    "hello": " echo 'Hello World'"
+  }
+}
