@@ -1,0 +1,36 @@
+{
+  "name": "arya/login-management",
+  "description": "Belajar Login Management",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Arya\\Mvc\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Arya\\Mvc\\": "test/"
+    }
+  },
+  "require": {
+    "php": ">=8"
+  },
+  "authors": [
+    {
+      "name": "belajar-mvc",
+      "email": "aryaadi229@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "9.5.5"
+  },
+  "scripts": {
+    "test:all": "phpunit --configuration phpunit.xml --testsuite all",
+    "test:config": "phpunit --configuration phpunit.xml --testsuite config",
+    "test:controller": "phpunit --configuration phpunit.xml --testsuite controller",
+    "test:middleware": "phpunit --configuration phpunit.xml --testsuite middleware",
+    "test:repository": "phpunit --configuration phpunit.xml --testsuite repository",
+    "test:service": "phpunit --configuration phpunit.xml --testsuite service",
+    "test:views": "phpunit --configuration phpunit.xml --testsuite views"
+  }
+}
